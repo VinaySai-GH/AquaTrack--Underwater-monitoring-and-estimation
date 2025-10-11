@@ -86,7 +86,6 @@ git clone https://github.com/<your-username>/AquaTrack.git
 cd AquaTrack
 
 ####Setup the environment variables
-
 DATABASE_URL=postgresql://postgres:password@localhost:5432/aquatrack
 JWT_SECRET=your_jwt_secret
 NODE_ENV=development
