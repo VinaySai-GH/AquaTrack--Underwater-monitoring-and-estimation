@@ -66,10 +66,22 @@ v v
 
 ---
 
+##👨‍💻 Team AquaTrack
+| Role                                | Name                     | Responsibility                                                                  |
+| ------------------------------------| -------------------------| -------------------------------------------------------------------------------- |
+| 💡 **Team Lead / Backend Dev**      | *Karthik Tamarapalli*    | System architecture, API design,database integration,documentation,ppt designing|
+| 🧠 **AI & Data Analyst**            | *Vinay Sai myneni*       | Model training, prediction algorithms                                           |
+| 🗺️ **Frontend Developer**           | *Sri Varshini *          | UI/UX                                                                           |
+| 📊 **Data Visualization & Reports** | *Maneesh Reddy*          | Input and output token recognition and front end integration , chart integration|
+| 💬 **Front end visualizer**         | *Siri Chandana*          | Styling of the front end components                                             |
+|     **Technical Presenter**         |  *Tamil *                 |Designing of the ppt,integration of backend from frontend side                   |
+
+
+
 ## 🧩 Setup Instructions
 
 ### 1️⃣ Clone the Repository
-
+```bash
 git clone https://github.com/<your-username>/AquaTrack.git
 cd AquaTrack
 
@@ -96,15 +108,6 @@ npm run dev
 ####Run with the docker
 docker-compose up --build
 
-##👨‍💻 Team AquaTrack
-| Role                                | Name                     | Responsibility                                                                  |
-| ------------------------------------| -------------------------| -------------------------------------------------------------------------------- |
-| 💡 **Team Lead / Backend Dev**      | *Karthik Tamarapalli*    | System architecture, API design,database integration,documentation,ppt designing|
-| 🧠 **AI & Data Analyst**            | *Vinay Sai myneni*       | Model training, prediction algorithms                                           |
-| 🗺️ **Frontend Developer**           | *Sri Varshini *          | UI/UX                                                                           |
-| 📊 **Data Visualization & Reports** | *Maneesh Reddy*          | Input and output token recognition and front end integration , chart integration|
-| 💬 **Front end visualizer**         | *Siri Chandana*          | Styling of the front end components                                             |
-|     **Technical Presenter**         |  *Tamil *                 |Designing of the ppt,integration of backend from frontend side                   |
 
 
 ###🌏 Acknowledgment
