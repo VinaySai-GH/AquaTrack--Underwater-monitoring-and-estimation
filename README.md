@@ -71,10 +71,10 @@ v v
 | ------------------------------------| -------------------------| -------------------------------------------------------------------------------- |
 | 💡 **Team Lead / Backend Dev**      | *Karthik Tamarapalli*    | System architecture, API design,database integration,documentation,ppt designing|
 | 🧠 **AI & Data Analyst**            | *Vinay Sai myneni*       | Machine learning,rag model with structures pipeline                             |
-| 🗺️ **Frontend Developer**           | *Sri Varshini *          | UI/UX                                                                           |
+| 🗺️ **Frontend Developer**           | *Sri Varshini*           | UI/UX                                                                           |
 | 📊 **Data Visualization & Reports** | *Maneesh Reddy*          | Input and output token recognition and front end integration , chart integration|
 | 💬 **Front end visualizer**         | *Siri Chandana*          | Styling of the front end components                                             |
-|     **Technical Presenter**         |  *Tamil *                 |Designing of the ppt,integration of backend from frontend side                   |
+|     **Technical Presenter**         |  *Tamil*                 |Designing of the ppt,integration of backend from frontend side                   |
 
 
 
