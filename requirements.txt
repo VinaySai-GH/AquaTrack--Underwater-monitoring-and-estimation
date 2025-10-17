@@ -1,0 +1,36 @@
+# Core backend
+fastapi==0.115.0
+uvicorn==0.30.6
+
+# Database and ORM
+sqlalchemy==2.0.23
+asyncpg==0.29.0  # For async PostgreSQL access
+psycopg2-binary==2.9.9
+supabase==2.3.0   # For Supabase API integration
+
+# Authentication & Security
+python-jose==3.3.0
+passlib[bcrypt]==1.7.4
+bcrypt==4.2.0
+python-dotenv==1.0.1
+
+# Utilities
+requests==2.32.3
+pydantic==2.8.2
+pandas==2.2.2
+numpy==2.0.2
+
+# CORS and middlewares
+starlette==0.38.2
+
+# Optional: Logging & scheduling
+loguru==0.7.2
+apscheduler==3.10.4
+
+# ML model serving (placeholder for later)
+torchserve==0.11.0
+torch-model-archiver==0.7.0
+
+# Testing
+pytest==8.3.3
+httpx==0.27.2
