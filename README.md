@@ -10,6 +10,7 @@
 **AquaTrack** is a GIS-based intelligent system designed for the **Assessment of Dynamic Ground Water Resources of India**.  
 The project integrates **data analytics**, **AI-powered estimation**, and **interactive visualizations** to enhance the capabilities of the existing **INGRES (India Groundwater Resource Estimation System)**.
 
+
 Built for the **Central Ground Water Board (CGWB)** and **DoWR, RD & GR, MoJS**, AquaTrack streamlines the estimation, visualization, and reporting of groundwater data across all States and Union Territories of India.
 
 ---
