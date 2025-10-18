@@ -78,7 +78,11 @@ v v
 
 
 ##Project Structure
-sih-project/
+
+
+
+
+Aqua-Track/
 │
 ├── README.md
 ├── .gitignore
