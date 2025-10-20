@@ -1,3 +1,5 @@
+#Implemented by Karthik  Tamarapalli
+
 from sqlalchemy import Column, String, DateTime, Text, func,Integer,ForeignKey
 from sqlalchemy.dialects.postgresql import UUID
 from sqlalchemy.orm import relationship
@@ -22,7 +24,7 @@ class User(Base):
 class ChatMessage(Base):
     __tablename__ = "chat_messages"
 
-    # --- Column definitions (exactly matching Supabase) ---
+    # --- Column definitions (exactly matching Supabase) ---   
     id = Column(Integer, primary_key=True, nullable=False, index=True)
     user_id = Column(UUID(as_uuid=True), ForeignKey("profiles.id"), nullable=False)
     message = Column(Text, nullable=False)

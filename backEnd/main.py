@@ -1,3 +1,6 @@
+#Implemented by Karthik  Tamarapalli
+
+
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from app.routes.auth.auth import router as auth_router  # make sure this path is correct
