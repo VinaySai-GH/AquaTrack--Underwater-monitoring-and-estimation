@@ -2,6 +2,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from app.routes.auth.auth import router as auth_router  # make sure this path is correct
 from app.routes.user.user import user_router as user_router
+from app.routes.chat_routes.chat import chat_router
 app = FastAPI(title="SIH Backend")
 
 # Enable CORS for frontend
@@ -16,6 +17,11 @@ app.add_middleware(
 # Include auth routes
 app.include_router(auth_router)
 app.include_router(user_router)
+app.include_router(chat_router)
+
+
+#TODO will be removed after getting all the frontEnd parts
+
 # Example unprotected route
 @app.get("/")
 async def home():
