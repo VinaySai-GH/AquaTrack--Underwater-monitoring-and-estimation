@@ -1,7 +1,8 @@
+#Implemented by Karthik  Tamarapalli
+
 from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy.orm import Session
 from typing import List
-
 from database.database import get_current_user, get_db
 from models.models import ChatMessage, User
 from pydantic import BaseModel
@@ -34,9 +35,9 @@ def send_message(
     if not current_user:
         raise HTTPException(status_code=401, detail="Not authenticated")
 
-    # Here you can call your chatbot backend or AI model
+    # TODO Here you can call your chatbot backend or AI model
     user_msg = chat.message
-    bot_response = f"Echo: {user_msg}"  # replace with actual AI call
+    bot_response = f"Echo: {user_msg}"  # TODO replace with actual AI call
 
     # Save to DB
     chat_record = ChatMessage(

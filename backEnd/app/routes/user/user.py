@@ -1,3 +1,5 @@
+#Implemented by Karthik  Tamarapalli
+
 from fastapi import APIRouter, Depends, HTTPException
 from pydantic import BaseModel, EmailStr
 from typing import List
@@ -48,7 +50,7 @@ async def update_current_user_profile(
     db.commit()
     db.refresh(current_user)
     return current_user
-
+'''
 # Optional: fetch another user by ID (admin use) TODO remove this and add it for another user if needed - Karthik
 @user_router.get("/{user_id}", response_model=UserProfile)
 async def get_user_profile(user_id: int, db: Session = Depends(get_db_session)):
@@ -72,3 +74,4 @@ async def delete_user(user_id: int, db: Session = Depends(get_db_session)):
     db.delete(user)
     db.commit()
     return {"detail": "User deleted successfully"}
+'''

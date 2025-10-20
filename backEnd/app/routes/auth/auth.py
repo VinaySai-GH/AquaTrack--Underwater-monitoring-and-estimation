@@ -9,7 +9,7 @@ env_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "../../..", "
 load_dotenv(dotenv_path=env_path)
 
 SUPABASE_URL = os.getenv("SUPABASE_URL")
-FRONTEND_URL = os.getenv("FRONTEND_URL")  # Frontend redirect after login 
+FRONTEND_URL = os.getenv("FRONTEND_URL")  #TODO Add the  Frontend redirect after login 
 SUPABASE_SERVICE_KEY = os.getenv("SUPABASE_SERVICE_KEY")
 router = APIRouter(prefix="/auth", tags=["Authentication"])
 
